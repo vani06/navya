@@ -1,5 +1,6 @@
 package com.MavenProject.OnlineShopping;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -20,6 +21,7 @@ public class OpenBowser {
   {
 	  driver.get("https://www.amazon.co.uk/");
 	  Thread.sleep(1000);
+	  System.out.println("Sucessfully launch the application");
   }
   
   @Test (priority=3)
